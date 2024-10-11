@@ -64,12 +64,20 @@ This simple feedforward model, trained on vectorized email text, provides a ligh
 
 
 ## Installation Guide
-The installation guide can be obtained from the "Installation_Guide.md" file in the repository.
+**Step 1**:- Open the terminal, run "pip install -r requirements.txt".</br>
+**Step 2**:- In the terminal, run "python setup.py".</br>
+**Step 3**:- Navigate to the **data** folder. Run "data_generator.py".</br>
+**Step 4**:- Navigate to the **models** folder. Run "pretrained_model.py" and "custom_model.py".</br>
+**Step 5**:- Navigate to the **utils** folder. Run "preprocessor.py" and "response_generator.py".</br>
+**Step 6**:- Navigate to the **app** folder. Run "chatbot.py" and then "main.py".</br>
+**Step 7**:- Save the docker file. Run the following commands on your terminal. Ensure that docker is installed on your desktop.
+            docker build -t email_management_system 
+            docker run -p 8000:8000 email_management_system
 
 ## Testing the model
 I have developed a **tkinter based chatbot** application, here are the steps for testing the model.</br>
 
-**Step 1**:- Complete the installation as presented in the installation guide.</br>
+**Step 1**:- Complete the installation as presented in the installation guide above.</br>
 **Step 2**:- Navigate to the app folder.</br>
 **Step 3**:- Run the **main.py** file. A chatbox will pop up on your screen.</br>
 **Step 4**:- Provide an email to the chatbot. Based on the classification of the email, a response will be generated.</br>
