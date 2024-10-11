@@ -70,7 +70,7 @@ This simple feedforward model, trained on vectorized email text, provides a ligh
 **Step 4**:- Navigate to the **models** folder. Run "pretrained_model.py" and "custom_model.py".</br>
 **Step 5**:- Navigate to the **utils** folder. Run "preprocessor.py" and "response_generator.py".</br>
 **Step 6**:- Navigate to the **app** folder. Run "chatbot.py" and then "main.py".</br>
-**Step 7**:- Save the docker file. Run the following commands on your terminal. Ensure that docker is installed on your desktop.
+**Step 7**:- Save the docker file. Run the following commands on your terminal. Ensure that docker is installed on your desktop.</br>
             docker build -t email_management_system </br>
             docker run -p 8000:8000 email_management_system</br>
 
