@@ -5,7 +5,7 @@ The email management system chatbot is designed to streamline email management f
 .By leveraging pre-trained LLM model such as BERT and a neural network architecture custom model, this chatbot classifies incoming emails into specific categories, such as "Student Inquiry," "Academic Collaboration," and "Corporate Inquiry." It generates appropriate responses based on the classification results, allowing users to streamline their email management processes.
 
 ## Approach to Solve the Problem Statement
-The project follows a two-pronged approach using both a pretrained model and a custom model for email classification. The aim is to enhance the accuracy and reliability of the email categorization process. The chatbot preprocesses the incoming email content, applies both classification models, and generates responses based on the classifications. For the pre-trained model, I have fine tuned BERT model, which is an open source model, and the exaplantion of the architecture of the custom model designed by me is provided below in the "Model Explanation" section. The chatbot is designed using the inbuilt tkinter python module which is a desktop based chatbot interface. It generates a response based on the classification.
+The project follows a two-pronged approach using both a pretrained model and a custom model for email classification. The aim is to enhance the accuracy and reliability of the email categorization process. The chatbot preprocesses the incoming email content, applies both classification models, and generates responses based on the classifications. For the pre-trained model, I have fine tuned BERT model, which is an open source model, and the exaplantion of the architecture of the custom model designed by me is provided below in the "Model Explanation" section. The chatbot is designed using the **inbuilt tkinter python** module which is a desktop based chatbot interface. It generates a response based on the classification.
 
 ## Dataset Used
 I have generated a dataset of 1000 instances. The dataset generator code and the dataset can be found under the "data" folder in the repository.
@@ -17,6 +17,8 @@ The project utilizes the **BERT (Bidirectional Encoder Representations from Tran
 
 ### Explanation of the Custom Model Architecture
 I developed a custom email classification model that uses a simple yet effective feedforward neural network (FNN). Below is a detailed explanation of the model architecture and training process.
+
+
 **1. Dataset Handling**
 We start by loading the dataset from email_dataset.csv, which contains email text and corresponding categories. These are first processed as follows:
 
@@ -62,6 +64,17 @@ This simple feedforward model, trained on vectorized email text, provides a ligh
 
 
 ## Installation Guide
+The installation guide can be obtained from the "Installation_Guide.md" file in the repository.
+
+## Testing the model
+I have developed a **tkinter based chatbot** application, here are the steps for testing the model.
+
+**Step 1**:- Complete the installation as presented in the installation guide.
+**Step 2**:- Navigate to the app folder.
+**Step 3**:- Run the main.py file. A chatbox will pop up on your screen.
+**Step 4**:- Provide an email to the chatbot. Based on the classification of the email, a response will be generated.
+
+**Note:-** For testing purposes, I have used the **Custom Model** for classification.
 
 
 
