@@ -67,12 +67,12 @@ This simple feedforward model, trained on vectorized email text, provides a ligh
 The installation guide can be obtained from the "Installation_Guide.md" file in the repository.
 
 ## Testing the model
-I have developed a **tkinter based chatbot** application, here are the steps for testing the model.
+I have developed a **tkinter based chatbot** application, here are the steps for testing the model.</br>
 
-**Step 1**:- Complete the installation as presented in the installation guide.
-**Step 2**:- Navigate to the app folder.
-**Step 3**:- Run the main.py file. A chatbox will pop up on your screen.
-**Step 4**:- Provide an email to the chatbot. Based on the classification of the email, a response will be generated.
+**Step 1**:- Complete the installation as presented in the installation guide.</br>
+**Step 2**:- Navigate to the app folder.</br>
+**Step 3**:- Run the main.py file. A chatbox will pop up on your screen.</br>
+**Step 4**:- Provide an email to the chatbot. Based on the classification of the email, a response will be generated.</br>
 
 **Note:-** For testing purposes, I have used the **Custom Model** for classification.
 
